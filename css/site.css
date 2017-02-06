@@ -1,0 +1,140 @@
+/*Grupos ------------------------------------------------------*/
+h1, h2
+{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+aside, footer
+{
+     padding: 25px;
+}
+
+/*Especificos -------------------------------------------------*/
+main a
+{
+    color: #851944;
+}
+aside a
+{
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-decoration: none;
+}
+aside h1
+{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+/*Classes-----------------------------------------------------*/
+.titulo-pagina
+{    
+    font-size: 60px;
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 10px solid black;
+    text-transform: uppercase;
+}
+.minha-foto
+{
+    width: 20%;
+}
+.navegacao-site
+{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;    
+    text-transform: uppercase;    
+    width: 19%;
+    clear: right;
+    
+   
+}
+
+.minha-foto, .navegacao-site
+{
+    float: right;
+    box-sizing: border-box;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+}
+.navegacao-site a
+{
+    color: #F2FFFC;
+    text-transform: lowercase;    
+}
+.icones-sociais li
+{
+    display: inline-block;
+}
+.icones-sociais a
+{    
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+}
+.github
+{
+    background-image: url(../img/github.png);
+}
+.twitter
+{
+    background-image: url(../img/twitter.png);
+}
+.linkedin
+{
+    background-image: url(../img/linkedin.png);
+}
+.conteudo-central
+{
+    width: 720px;
+    margin: 30px auto;
+    padding-bottom: 80px;
+}
+.rodape
+{
+    background-color: #000;
+    color: #F2FFFC;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.clearfix {
+    clear: both;
+}
+
+/*Genericos---------------------------------------------------*/
+body
+{
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+main
+{
+    float: left;
+    width: 80%;
+}
+h2
+{
+    font-size: 30px;
+    clear: both;    
+}
+p
+{
+    text-align: justify;
+    margin: 20px 0;
+}
+strong
+{
+    font-weight: bold;
+}
+em
+{
+    font-style: italic;
+}

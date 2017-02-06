@@ -1,0 +1,25 @@
+/*Classes ----------------------------------*/
+.bloco-citacoes
+{
+    background-color: #D9E5E3;   
+    border: 10px solid #C2CCCA;
+    width: 280px;
+    margin: 20px 40px;
+    box-sizing: border-box;    
+    padding: 20px;
+}
+.fiat
+{
+    float: right;
+}
+.petrobras
+{
+    float: left;
+}
+
+/*Genericos --------------------------------*/
+cite
+{
+    font-style: italic;
+    float: right;
+}

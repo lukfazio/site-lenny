@@ -1,0 +1,17 @@
+/*Classes -------------------------------------------*/
+.artigo
+{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.Leia-mais
+{
+    display: block;
+    font-size: 24px;
+    padding: 8px;
+    margin: 16px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
